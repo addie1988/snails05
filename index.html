@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snails05</title>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <!-- main css -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <!-- main scss -->
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<!-- header -->
+<div class="header">
+    <div class="header-content">
+
+        <!-- header-top -->
+        <div class="header-top">
+            <div class="header-top-content">
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> +00 (123) 456 7890</li>
+                            <li><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> info@domain.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- header-menu -->
+            <div class="header-menu">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+                            <a class="navbar-brand" href="#">Escarine-Hol</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Gallery</a>
+                                            <a class="dropdown-item" href="#">Full Width</a>
+                                            <a class="dropdown-item" href="#">Sidebar Left</a>
+                                            <a class="dropdown-item" href="#">Sidebar Right</a>
+                                            <a class="dropdown-item" href="#">Basic Grid</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Level 2</a>
+                                            <a class="dropdown-toggle dropdown-item" href="#" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Level 2 + Drop
+                                            </a>
+                                            <div class="dropdown-menu one" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">Level 3</a>
+                                                <a class="dropdown-item" href="#">Level 3</a>
+                                                <a class="dropdown-item" href="#">Level 3</a>
+                                            </div>
+                                            <a class="dropdown-item" href="#">Level 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link Text</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link Text</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- header-title -->
+        <div class="header-title">
+            <div class="row">
+                <div class="col">
+                    <div class="header-title-content">
+                        <h1>Holiday & Travel</h1>
+                        <p>Donec ultrices justo quis congue posuere in pulvinar sapien gravida fringilla tempus
+                            vestibulum
+                            in dolor vitae massa consequat iaculis nec congue risus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- service-one -->
+        <div class="service-one">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <span><a href="#"><i class="fa fa-plane" aria-hidden="true"></i></a>
+                                <h4>Book a Flight</h4>
+                            </span>
+                        </li>
+                        <li>
+                            <span><a href="#"><i class="fa fa-ship" aria-hidden="true"></i></a>
+                                <h4>Book a Cruise</h4>
+                            </span>
+                        </li>
+                        <li>
+                            <span><a href="#"><i class="fa fa-car" aria-hidden="true"></i></a>
+                                <h4>Book a Car</h4>
+                            </span>
+                        </li>
+                        <li>
+                            <span><a href="#"><i class="fa fa-archive-org" aria-hidden="true"></i></a>
+                                <h4>Book a Hotel</h4>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- service-two -->
+<div class="service-two">
+    <div class="service-two-content">
+        <div class="row">
+            <div class="col-3"><a href="#">
+                    <div class="service-two-content-group"><span><img src="./images/01.jpg"><i class="fa fa-eyedropper"
+                                aria-hidden="true"></i></span>
+                        <p>Ask a Question</p>
+                    </div>
+                </a></div>
+            <div class="col-3"><a href="#">
+                    <div class="service-two-content-group"><span><img src="./images/download.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <p>Download Brochures</p>
+                    </div>
+                </a></div>
+            <div class="col-3"><a href="#">
+                    <div class="service-two-content-group"><span><img src="./images/download-1.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <p>Holiday / Travel Vouchers</p>
+                    </div>
+                </a></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- service-three -->
+<div class="service-three">
+    <div class="service-three-content">
+        <h2>Find the right type of holiday</h2>
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Fitness / Sport</h4>
+                                <p>Consectetur maecenas sollicitudin nulla at velit tincidunt bibendum.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Active / Adventure</h4>
+                                <p>Urna ac mi posuere vestibulum sem elit tempus ut quam vitae.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Spa / Wellness</h4>
+                                <p>Aliquam dignissim magna eget ante efficitur facilisis duis aliquam.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Luxury / Golf</h4>
+                                <p>Dapibus id tellus ac luctus etiam est nisi efficitur ornare maecenas.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Water / Sailing</h4>
+                                <p>Laoreet leo ut aliquam vivamus quis cursus cras maximus tincidunt.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-three-product">
+                            <span><a href="#"><i class="fa fa-apple" style="font-size:36px"></i></a></span>
+                            <div class="service-three-product-content">
+                                <h4>Family / Beach</h4>
+                                <p>Bibendum ex at feugiat magna duis consequat eget aliquam varius.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- service-four -->
+<div class="service-four">
+    <div class="service-four-content">
+        <h2>This weeks most popular destinations</h2>
+        <p>Condimentum nunc at faucibus ex phasellus ac efficitur lorem ut. <a href="#">View All Destinations »</a></p>
+        <div class="row">
+            <div class="col-3"><a href="#">
+                    <div class="service-four-content-detailed"><span><img src="./images/download-2.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <div class="read">
+                            <p>London</p><i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </a></div>
+            <div class="col-3"><a href="#">
+                    <div class="service-four-content-detailed"><span><img src="./images/download-3.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <div class="read">
+                            <p>London</p><i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </a></div>
+            <div class="col-3"><a href="#">
+                    <div class="service-four-content-detailed"><span><img src="./images/download-4.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <div class="read">
+                            <p>London</p><i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </a></div>
+            <div class="col-3"><a href="#">
+                    <div class="service-four-content-detailed"><span><img src="./images/download-5.jpg"><i
+                                class="fa fa-eyedropper" aria-hidden="true"></i></span>
+                        <div class="read">
+                            <p>London</p><i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </a></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- service-six -->
+<div class="service-six">
+    <div class="service-six-content">
+        <h2>The Best Last Minute Deals</h2>
+        <p>Imperdiet lacinia placerat in sapien vivamus ac dolor felis pellentesque.<a href="#">View All Deals »</a></p>
+        <div class="row">
+            <div class="col-4">
+                <div class="service-six-content-detailed">
+                    <a href="#">
+                        <span>
+                            <div class="service-six-content-detailed-images">
+                                <img src="./images/download-6.jpg">
+                                <i class="fa fa-eyedropper" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-six-detailed">
+                                <p>United Kingdom</p>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </div>
+                        </span>
+                    </a>
+                    <div class="service-six-detailed-content">
+                        <div class="score">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star-half-o"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                            <h4>Luctus interdum commodo nullam sodales</h4>
+                            <div class="detailed">
+                                <ul>
+                                    <li><i class="red fa fa-map-marker"></i> London City</li>
+                                    <li><i class="fa fa-gbp"></i><strong>125</strong>
+                                        <p>(per night)</p>
+                                    </li>
+                                    <li><a href="#">View Details »</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="service-six-content-detailed">
+                    <a href="#">
+                        <span>
+                            <div class="service-six-content-detailed-images">
+                                <img src="./images/download-7.jpg">
+                                <i class="fa fa-eyedropper" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-six-detailed">
+                                <p>United Kingdom</p>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </div>
+                        </span>
+                    </a>
+                    <div class="service-six-detailed-content">
+                        <div class="score">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star-half-o"></i></li>
+                            </ul>
+                            <h4>Lobortis Turpis Gravida Curabitur Elementum</h4>
+                            <div class="detailed">
+                                <ul>
+                                    <li><i class="red fa fa-map-marker"></i> Paris City</li>
+                                    <li><i class="fa fa-gbp"></i><strong>125</strong>
+                                        <p>(per night)</p>
+                                    </li>
+                                    <li><a href="#">View Details »</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="service-six-content-detailed">
+                    <a href="#">
+                        <span>
+                            <div class="service-six-content-detailed-images">
+                                <img src="./images/download-8.jpg">
+                                <i class="fa fa-eyedropper" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-six-detailed">
+                                <p>United Kingdom</p>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </div>
+                        </span>
+                    </a>
+                    <div class="service-six-detailed-content">
+                        <div class="score">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <h4>Faucibus Lectus Molestie Est Praesent Vitae</h4>
+                            <div class="detailed">
+                                <ul>
+                                    <li><i class="red fa fa-map-marker"></i> New York City</li>
+                                    <li><i class="fa fa-gbp"></i><strong>125</strong>
+                                        <p>(per night)</p>
+                                    </li>
+                                    <li><a href="#">View Details »</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- contact -->
+<div class="contact">
+    <div class="contact-content">
+        <div class="row">
+            <div class="col-3">
+                <duv class="col-3-content">
+                    <span><i class="fa fa-phone"></i></span>
+                    <ul>
+                        <li>+00 (123) 456 7890</li>
+                        <li>+00 (123) 456 7890</li>
+                    </ul>
+                </duv>
+            </div>
+            <div class="col-3">
+                <duv class="col-3-content">
+                    <span><i class="fa fa-envelope-o"></i></span>
+                    <ul>
+                        <li><a href="mailto:">info@domain.com</a></li>
+                        <li><a href="mailto:">sales@domain.com</a></li>
+                    </ul>
+                </duv>
+            </div>
+            <div class="col-3">
+                <duv class="col-3-content">
+                    <span><i class="fa fa-clock-o"></i></span>
+                    <ul>
+                        <li>+00 (123) 456 7890</li>
+                        <li>+00 (123) 456 7890</li>
+                    </ul>
+                </duv>
+            </div>
+            <div class="col-3">
+                <duv class="col-3-content">
+                    <span><i class="fa fa-support"></i></span>
+                    <ul>
+                        <li><a href="#">Online Support</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                    </ul>
+                </duv>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- table -->
+<div class="table">
+    <div class="table-content">
+        <div class="table-title">
+            <h6><i class="fa fa-newspaper-o"></i> Latest News</h6>
+        </div>
+        <form>
+            <ul>
+                <li><input placeholder="Name"></li>
+                <li><input placeholder="Email"></li>
+                <li><button type="buttom">Sign Up</button></li>
+            </ul>
+        </form>
+    </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-content">
+        <div class="row">
+            <div class="col-3">
+                <h6>Vitae nunc sagittis</h6>
+                <p>Duis non dolor sit amet lorem rhoncus commodo ornare tellus vel quam.</p>
+                <p>Sapien porttitor auctor integer pharetra ligula sit elementum in lobortis dolor ullamcorper.</p>
+            </div>
+            <div class="col-3">
+                <h6>Faucibus a lacus</h6>
+                <article>
+                    <a href="#">Tincidunt phasellus</a>
+                </article>
+                <div class="time">
+                    Friday, 6<sup>th</sup> April 2045
+                </div>
+                <p>Nullam eu velit vestibulum egestas nisi lacinia fringilla lectus mauris enim magna placerat
+                    venenatis.</p>
+            </div>
+            <div class="col-3">
+                <h6>Molestie elit id</h6>
+                <ul>
+                    <li><a href="#">Placerat arcu suspendisse</a></li>
+                    <li><a href="#">Vestibulum ultrices id dui</a></li>
+                    <li><a href="#">Tempus commodo maximus</a></li>
+                    <li><a href="#">Suspendisse potenti vivamus</a></li>
+                    <li><a href="#">Gravida malesuada praesent</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h6>Ultrices odio cras</h6>
+                <ul>
+                    <li><a href="#">aenean eget tempor orci</a></li>
+                    <li><a href="#">Vcurabitur sit amet massa</a></li>
+                    <li><a href="#">sollicitudin elementum</a></li>
+                    <li><a href="#">nunc sit amet laoreet libero</a></li>
+                    <li><a href="#">donec erat enim consectetur</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer-bottom -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-content">
+            <div class="row">
+                <div class="col">Copyright ©2012~2022 Snails . All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- gotop -->
+<div class="gotop">
+    <a href="#">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+        /* 按下GoTop按鈕時的事件 */
+        $('.gotop').click(function () {
+            $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+            return false;
+        });
+
+        /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) {
+                $('.gotop').fadeIn();
+            } else {
+                $('.gotop').fadeOut();
+            }
+        });
+    });
+</script>
+
+
+
+<body>
+
+</body>
+
+</html>
